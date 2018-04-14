@@ -1,0 +1,13 @@
+.Navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fbe4c9;
+  margin: 0;
+  border-bottom: 1px solid #c7b5a0;
+}
+
+.navItem {
+  text-decoration: none;
+  width: 100px;
+  margin: 0;
+}

@@ -1,0 +1,11 @@
+.About {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  height: 400px;
+  background: #ecf0f1;
+}
+
+.aboutImage {
+  width: auto;
+}
