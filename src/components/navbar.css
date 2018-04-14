@@ -1,13 +1,24 @@
 .Navbar {
   display: flex;
   justify-content: flex-end;
-  background-color: #fbe4c9;
+  align-items: center;
+  background-color: #ecf0f1;
   margin: 0;
   border-bottom: 1px solid #c7b5a0;
+  height: 30px;
 }
 
 .navItem {
   text-decoration: none;
   width: 100px;
   margin: 0;
+  background: #bdc1c2;
+  color: white;
+  margin-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.navItem:hover {
+  color: #323643;
 }

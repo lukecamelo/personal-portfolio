@@ -1,0 +1,19 @@
+.techContainer {
+  
+}
+
+.techList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+  justify-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.techItem {
+  height: 100px;
+  background: #ff5d5d;
+  width: 100px;
+}

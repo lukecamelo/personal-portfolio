@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './components/navbar';
 import Header from './components/header';
 import About from './components/about';
+import KnownTech from './components/knownTech';
 import './App.css';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
           <Navbar/>
           <Header/>
           <About/>
+          <KnownTech/>
       </div>
     );
   }
