@@ -3,19 +3,27 @@
   background: linear-gradient(#fbe4c9, #84b9ef);
   height: 600px;
   margin-top: 0;
+  justify-content: center;
   align-content: center;
   font-size: 32px;
 }
 
 .headText {
+  width: 600px;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
   font-weight: 700;
   color: #323643;
-  border: 1px solid black;
+  border: 10px solid black;
 }
 
 .headText h1 {
   margin-bottom: 0;
+}
+
+@media (max-width: 401px) {
+  .headText {
+    width: 300px;
+  }
 }

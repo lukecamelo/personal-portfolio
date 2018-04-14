@@ -1,8 +1,9 @@
 .About {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-items: center;
-  height: 400px;
+  align-items: center;
+  height: 500px;
   background: #ecf0f1;
 }
 
@@ -10,5 +11,27 @@
   width: 300px;
   height: 300px;
   background: #ff5d5d;
-  margin-top: 10px;
+  box-shadow: 2px 2px 5px #323643;
+}
+
+.blurb {
+  width: 600px;
+  font-size: 24px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .blurb {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .About {
+    height: 600px;
+  }
+  .blurb {
+    width: 350px;
+  }
 }
