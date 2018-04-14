@@ -1,6 +1,6 @@
 .Header {
   display: grid;
-  background: linear-gradient(#fbe4c9, #84b9ef);
+  background: linear-gradient(#f8b195, #f67280);
   height: 600px;
   margin-top: 0;
   justify-content: center;
@@ -15,7 +15,10 @@
   grid-template-columns: 1fr;
   font-weight: 700;
   color: #323643;
-  border: 10px solid black;
+  border: 10px solid #323643;
+  /* text-shadow: 2px 4px 3px rgba(0,0,0,0.3); */
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
 }
 
 .headText h1 {
