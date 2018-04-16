@@ -1,0 +1,11 @@
+.projectList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.projectImage {
+  background-image: url('../assets/between.png');
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}

@@ -16,20 +16,20 @@
   width: 400px;
   height: 400px;
   /* background: #ff5d5d; */
-  box-shadow: 2px 2px 5px #323643;
+  box-shadow: 0px 0px 10px #3236438f;
 }
 
 .blurb {
   /* width: 600px; */
   font-size: 24px;
-  padding-left: 10px;
-  padding-right: 10px;
   color: #323643;
+  margin-right: 50px;
 }
 
 @media (max-width: 800px) {
   .blurb {
     font-size: 16px;
+    margin-right: 0;
   }
   .aboutImage {
     margin-top: 20px;
@@ -44,5 +44,6 @@
   }
   .blurb {
     width: 350px;
+    margin-right: 0;
   }
 }

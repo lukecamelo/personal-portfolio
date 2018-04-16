@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: 1fr;
-  grid-gap: 50px;
+  grid-gap: 30px;
   justify-items: center;
   margin: 0;
   padding: 0;
@@ -16,12 +16,9 @@
   display: grid;
   align-items: center;
   height: 200px;
-  background: #ecf0f1;
-  /* width: 200px; */
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
   color: #323643;
-  box-shadow: 3px 4px 10px #323643;
 }
 

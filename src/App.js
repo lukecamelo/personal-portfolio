@@ -3,6 +3,8 @@ import Navbar from './components/navbar';
 import Header from './components/header';
 import About from './components/about';
 import KnownTech from './components/knownTech';
+import Projects from './components/projects';
+import Fade from 'react-reveal/Fade';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +15,7 @@ class App extends Component {
           <Header/>
           <About/>
           <KnownTech/>
+          <Projects/>
       </div>
     );
   }
