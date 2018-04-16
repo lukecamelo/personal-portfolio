@@ -16,7 +16,6 @@
   font-weight: 700;
   color: #323643;
   border: 10px solid #323643;
-  /* text-shadow: 2px 4px 3px rgba(0,0,0,0.3); */
   box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 
 }
@@ -25,7 +24,7 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 401px) {
+@media (max-width: 450px) {
   .headText {
     width: 300px;
   }

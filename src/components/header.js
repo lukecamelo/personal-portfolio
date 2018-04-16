@@ -6,8 +6,8 @@ class Header extends Component {
     return(
       <div className='Header'>
         <div className='headText'>
-          <h1>Person's Name</h1>
-          <p>This text is not cooperating.</p>
+          <h1>Luke Camelo</h1>
+          <p>Hey, I like to make websites.</p>
         </div>
       </div>
     );

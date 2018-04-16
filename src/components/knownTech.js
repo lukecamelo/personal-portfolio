@@ -5,7 +5,7 @@ class KnownTech extends Component {
   render() {
     return(
       <div className='techContainer'>
-        <ul className="techList">
+        <div className="techList">
 
           <div className="techItem">
             <h3>HTML5</h3>
@@ -55,7 +55,7 @@ class KnownTech extends Component {
             </p>
           </div>
 
-        </ul>
+        </div>
       </div>
     );
   }
