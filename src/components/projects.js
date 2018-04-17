@@ -5,9 +5,10 @@ const projects = () => {
   return(
     <div className='projectContainer'>
       <div className="projectList">
+
         <div className="projectItem">
           <div className="projectImage"></div>
-          <p>
+          <p className='projectDescription'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -19,7 +20,7 @@ const projects = () => {
 
         <div className="projectItem">
           <div className="projectImage"></div>
-          <p>
+          <p className='projectDescription'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -30,7 +31,7 @@ const projects = () => {
         </div>
         <div className="projectItem">
           <div className="projectImage"></div>
-          <p>
+          <p className='projectDescription'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -42,7 +43,7 @@ const projects = () => {
 
         <div className="projectItem">
           <div className="projectImage"></div>
-          <p>
+          <p className='projectDescription'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
