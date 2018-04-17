@@ -4,7 +4,7 @@
 
 .projectList {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: 1fr 1fr;
   justify-items: center;
   margin: 0;
@@ -21,6 +21,7 @@
 
 .projectItem {
   display: grid;
+  grid-template-rows: 1fr 1fr;
   justify-items: center;
 }
 

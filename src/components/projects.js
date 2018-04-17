@@ -29,6 +29,7 @@ const projects = () => {
             esse cillum dolore eu fugiat nulla pariatur.
           </p>
         </div>
+
         <div className="projectItem">
           <div className="projectImage"></div>
           <p className='projectDescription'>
@@ -52,6 +53,7 @@ const projects = () => {
             esse cillum dolore eu fugiat nulla pariatur.
           </p>
         </div>
+        
       </div>
     </div>
   );
