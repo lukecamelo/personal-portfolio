@@ -1,6 +1,5 @@
-.techContainer {
-  /* height: 500px; */
-}
+/* .techContainer {
+} */
 
 .techList {
   display: grid;
@@ -14,13 +13,18 @@
 }
 
 .techItem {
+  font-size: 24px;
   display: grid;
   align-items: center;
   /* height: 250px; */
-  margin-top: 50px;
+  margin-top: 0px;
   margin-left: 10px;
   margin-right: 10px;
   color: #323643;
+}
+
+.techItem > p {
+  margin-top: 0;
 }
 
 @media (max-width: 950px) {

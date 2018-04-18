@@ -4,6 +4,7 @@ import Header from './components/header';
 import About from './components/about';
 import KnownTech from './components/knownTech';
 import Projects from './components/projects';
+import Contact from './components/contact';
 import Fade from 'react-reveal/Fade';
 import './App.css';
 
@@ -16,6 +17,7 @@ class App extends Component {
           <About/>
           <KnownTech/>
           <Projects/>
+          <Contact/>
       </div>
     );
   }

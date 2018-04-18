@@ -1,14 +1,12 @@
 .projectContainer {
-  height: 600px;
+  background-color: #ecf0f1;
 }
 
 .projectList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
-  margin: 0;
-  padding: 0;
   grid-gap: 20px;
 }
 
@@ -17,15 +15,35 @@
   background-size: cover;
   height: 400px;
   width: 400px;
+  align-self: end;
+  margin-bottom: 10px;
 }
 
 .projectItem {
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
+  margin-top: 30px;
 }
 
 .projectDescription {
   width: 500px;
   font-size: 24px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1050px) {
+  .projectList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .projectDescription {
+    width: 350px;
+  }
+  .projectImage {
+    width: 350px;
+    height: 350px;
+  }
 }

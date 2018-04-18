@@ -1,0 +1,19 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.email {
+  align-self: flex-start;
+}
+
+.socialLinks {
+  align-self: flex-end;
+}
+
+.socialLinks > a {
+  margin-left: 10px;
+}
